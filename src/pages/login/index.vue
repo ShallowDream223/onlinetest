@@ -1,7 +1,7 @@
 <template>
   <div id="background">
     <div id="loginform">
-      <h3>Launch OnLine Test System</h3>
+      <h3>OnLine Test System</h3>
       <h6>在线考试系统登录</h6>
       <div>
         <el-input
