@@ -43,7 +43,7 @@ export const DynamicRoutes = [
       requiresAuth: true,
       name: "首页",
       title: "首页",
-      isTure:true
+      isTure: true,
     },
     children: [
       {
@@ -55,7 +55,7 @@ export const DynamicRoutes = [
           name: "首页",
           icon: "icon-name",
           title: "首页",
-          isTure:true
+          isTure: true,
         },
       },
     ],
@@ -71,7 +71,7 @@ export const DynamicRoutes = [
 ];
 
 const router = new VueRouter({
-  mode: "history",
+  mode: "hash",
   base: process.env.BASE_URL,
   routes,
 });
